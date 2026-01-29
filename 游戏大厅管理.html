@@ -1,0 +1,811 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>游戏大厅管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/游戏大厅管理/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/游戏大厅管理/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1090" class="ax_default _三级标题">
+        <div id="u1090_div" class=""></div>
+        <div id="u1090_text" class="text ">
+          <p><span>游戏大厅管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1091" class="ax_default _文本段落">
+        <div id="u1091_div" class=""></div>
+        <div id="u1091_text" class="text ">
+          <p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><p style="font-size:18px;"><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;">游戏大厅管理功能说明</span></p><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;"><br></span></p><ul><li style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">管理公共游戏厅游戏列表</span></li></ul><p style="font-size:13px;"><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">备注：俱乐部游戏由俱乐部管理员，在俱乐部管理后台进行配置管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1092" class="ax_default box_1">
+        <div id="u1092_div" class=""></div>
+        <div id="u1092_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1093" class="ax_default label">
+        <div id="u1093_div" class=""></div>
+        <div id="u1093_text" class="text ">
+          <p><span>开启状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1094" class="ax_default label">
+        <div id="u1094_div" class=""></div>
+        <div id="u1094_text" class="text ">
+          <p><span>游戏id：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1095" class="ax_default label">
+        <div id="u1095_div" class=""></div>
+        <div id="u1095_text" class="text ">
+          <p><span>游戏名称：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1096" class="ax_default label">
+        <div id="u1096_div" class=""></div>
+        <div id="u1096_text" class="text ">
+          <p><span>游戏标签：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u1097" class="ax_default droplist">
+        <div id="u1097_div" class=""></div>
+        <select id="u1097_input" class="u1097_input">
+          <option class="u1097_input_option" value="全部（默认）">全部（默认）</option>
+          <option class="u1097_input_option" value="棋牌">棋牌</option>
+          <option class="u1097_input_option" value="捕鱼">捕鱼</option>
+          <option class="u1097_input_option" value="电子游戏">电子游戏</option>
+          <option class="u1097_input_option" value="...">...</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u1098" class="ax_default text_field">
+        <div id="u1098_div" class=""></div>
+        <input id="u1098_input" type="text" value="" class="u1098_input"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u1099" class="ax_default text_field">
+        <div id="u1099_div" class=""></div>
+        <input id="u1099_input" type="text" value="" class="u1099_input"/>
+      </div>
+
+      <!-- Unnamed (下拉列表) -->
+      <div id="u1100" class="ax_default droplist">
+        <div id="u1100_div" class=""></div>
+        <select id="u1100_input" class="u1100_input">
+          <option class="u1100_input_option" value="全部（默认）">全部（默认）</option>
+          <option class="u1100_input_option" value="开启">开启</option>
+          <option class="u1100_input_option" value="关闭">关闭</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1101" class="ax_default button">
+        <div id="u1101_div" class=""></div>
+        <div id="u1101_text" class="text ">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1102" class="ax_default button">
+        <div id="u1102_div" class=""></div>
+        <div id="u1102_text" class="text ">
+          <p><span>重置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u1103" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1104" class="ax_default table_cell">
+          <img id="u1104_img" class="img " src="images/游戏明细/u308.png"/>
+          <div id="u1104_text" class="text ">
+            <p><span>游戏id</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1105" class="ax_default table_cell">
+          <img id="u1105_img" class="img " src="images/棋牌游戏设置/u614.png"/>
+          <div id="u1105_text" class="text ">
+            <p><span>游戏名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1106" class="ax_default table_cell">
+          <img id="u1106_img" class="img " src="images/游戏列表管理/u784.png"/>
+          <div id="u1106_text" class="text ">
+            <p><span>游戏标签</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1107" class="ax_default table_cell">
+          <img id="u1107_img" class="img " src="images/棋牌游戏设置/u614.png"/>
+          <div id="u1107_text" class="text ">
+            <p><span>游戏图片</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1108" class="ax_default table_cell">
+          <img id="u1108_img" class="img " src="images/用户列表/u148.png"/>
+          <div id="u1108_text" class="text ">
+            <p><span>排序</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1109" class="ax_default table_cell">
+          <img id="u1109_img" class="img " src="images/游戏明细/u308.png"/>
+          <div id="u1109_text" class="text ">
+            <p><span>前端显示</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1110" class="ax_default table_cell">
+          <img id="u1110_img" class="img " src="images/棋牌游戏设置/u627.png"/>
+          <div id="u1110_text" class="text ">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1111" class="ax_default table_cell">
+          <img id="u1111_img" class="img " src="images/游戏列表管理/u791.png"/>
+          <div id="u1111_text" class="text ">
+            <p><span>123456789</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1112" class="ax_default table_cell">
+          <img id="u1112_img" class="img " src="images/游戏列表管理/u792.png"/>
+          <div id="u1112_text" class="text ">
+            <p><span>斗地主</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1113" class="ax_default table_cell">
+          <img id="u1113_img" class="img " src="images/游戏列表管理/u794.png"/>
+          <div id="u1113_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1114" class="ax_default table_cell">
+          <img id="u1114_img" class="img " src="images/游戏列表管理/u792.png"/>
+          <div id="u1114_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1115" class="ax_default table_cell">
+          <img id="u1115_img" class="img " src="images/游戏列表管理/u797.png"/>
+          <div id="u1115_text" class="text ">
+            <p><span>0</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1116" class="ax_default table_cell">
+          <img id="u1116_img" class="img " src="images/游戏列表管理/u791.png"/>
+          <div id="u1116_text" class="text ">
+            <p><span>开启</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1117" class="ax_default table_cell">
+          <img id="u1117_img" class="img " src="images/游戏列表管理/u799.png"/>
+          <div id="u1117_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1118" class="ax_default table_cell">
+          <img id="u1118_img" class="img " src="images/游戏列表管理/u801.png"/>
+          <div id="u1118_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1119" class="ax_default table_cell">
+          <img id="u1119_img" class="img " src="images/游戏列表管理/u802.png"/>
+          <div id="u1119_text" class="text ">
+            <p><span>四川麻将</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1120" class="ax_default table_cell">
+          <img id="u1120_img" class="img " src="images/游戏列表管理/u804.png"/>
+          <div id="u1120_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1121" class="ax_default table_cell">
+          <img id="u1121_img" class="img " src="images/游戏列表管理/u802.png"/>
+          <div id="u1121_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1122" class="ax_default table_cell">
+          <img id="u1122_img" class="img " src="images/游戏列表管理/u807.png"/>
+          <div id="u1122_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1123" class="ax_default table_cell">
+          <img id="u1123_img" class="img " src="images/游戏列表管理/u801.png"/>
+          <div id="u1123_text" class="text ">
+            <p><span>关闭</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1124" class="ax_default table_cell">
+          <img id="u1124_img" class="img " src="images/游戏列表管理/u809.png"/>
+          <div id="u1124_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1125" class="ax_default table_cell">
+          <img id="u1125_img" class="img " src="images/游戏列表管理/u791.png"/>
+          <div id="u1125_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1126" class="ax_default table_cell">
+          <img id="u1126_img" class="img " src="images/游戏列表管理/u792.png"/>
+          <div id="u1126_text" class="text ">
+            <p><span>跑得快</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1127" class="ax_default table_cell">
+          <img id="u1127_img" class="img " src="images/游戏列表管理/u794.png"/>
+          <div id="u1127_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1128" class="ax_default table_cell">
+          <img id="u1128_img" class="img " src="images/游戏列表管理/u792.png"/>
+          <div id="u1128_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1129" class="ax_default table_cell">
+          <img id="u1129_img" class="img " src="images/游戏列表管理/u797.png"/>
+          <div id="u1129_text" class="text ">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1130" class="ax_default table_cell">
+          <img id="u1130_img" class="img " src="images/游戏列表管理/u791.png"/>
+          <div id="u1130_text" class="text ">
+            <p><span>开启</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1131" class="ax_default table_cell">
+          <img id="u1131_img" class="img " src="images/游戏列表管理/u799.png"/>
+          <div id="u1131_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1132" class="ax_default table_cell">
+          <img id="u1132_img" class="img " src="images/游戏列表管理/u791.png"/>
+          <div id="u1132_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1133" class="ax_default table_cell">
+          <img id="u1133_img" class="img " src="images/游戏列表管理/u792.png"/>
+          <div id="u1133_text" class="text ">
+            <p><span>金鲨银鲨</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1134" class="ax_default table_cell">
+          <img id="u1134_img" class="img " src="images/游戏列表管理/u794.png"/>
+          <div id="u1134_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1135" class="ax_default table_cell">
+          <img id="u1135_img" class="img " src="images/游戏列表管理/u792.png"/>
+          <div id="u1135_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1136" class="ax_default table_cell">
+          <img id="u1136_img" class="img " src="images/游戏列表管理/u797.png"/>
+          <div id="u1136_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1137" class="ax_default table_cell">
+          <img id="u1137_img" class="img " src="images/游戏列表管理/u791.png"/>
+          <div id="u1137_text" class="text ">
+            <p><span>关闭</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1138" class="ax_default table_cell">
+          <img id="u1138_img" class="img " src="images/游戏列表管理/u799.png"/>
+          <div id="u1138_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1139" class="ax_default table_cell">
+          <img id="u1139_img" class="img " src="images/棋牌游戏设置/u748.png"/>
+          <div id="u1139_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1140" class="ax_default table_cell">
+          <img id="u1140_img" class="img " src="images/棋牌游戏设置/u749.png"/>
+          <div id="u1140_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1141" class="ax_default table_cell">
+          <img id="u1141_img" class="img " src="images/游戏列表管理/u834.png"/>
+          <div id="u1141_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1142" class="ax_default table_cell">
+          <img id="u1142_img" class="img " src="images/棋牌游戏设置/u749.png"/>
+          <div id="u1142_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1143" class="ax_default table_cell">
+          <img id="u1143_img" class="img " src="images/用户列表/u163.png"/>
+          <div id="u1143_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1144" class="ax_default table_cell">
+          <img id="u1144_img" class="img " src="images/棋牌游戏设置/u748.png"/>
+          <div id="u1144_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1145" class="ax_default table_cell">
+          <img id="u1145_img" class="img " src="images/棋牌游戏设置/u762.png"/>
+          <div id="u1145_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1146" class="ax_default button">
+        <div id="u1146_div" class=""></div>
+        <div id="u1146_text" class="text ">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u1147" class="ax_default _图片_">
+        <img id="u1147_img" class="img " src="images/用户列表/u169.png"/>
+        <div id="u1147_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1148" class="ax_default box_2">
+        <div id="u1148_div" class=""></div>
+        <div id="u1148_text" class="text ">
+          <p><span>棋牌</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1149" class="ax_default box_2">
+        <div id="u1149_div" class=""></div>
+        <div id="u1149_text" class="text ">
+          <p><span>桌游</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1150" class="ax_default box_2">
+        <div id="u1150_div" class=""></div>
+        <div id="u1150_text" class="text ">
+          <p><span>热门</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1151" class="ax_default box_2">
+        <div id="u1151_div" class=""></div>
+        <div id="u1151_text" class="text ">
+          <p><span>推荐</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1152" class="ax_default box_2">
+        <div id="u1152_div" class=""></div>
+        <div id="u1152_text" class="text ">
+          <p><span>新游戏</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1153" class="ax_default box_2">
+        <div id="u1153_div" class=""></div>
+        <div id="u1153_text" class="text ">
+          <p><span>其他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1154" class="ax_default box_2">
+        <div id="u1154_div" class=""></div>
+        <div id="u1154_text" class="text ">
+          <p><span>poker</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1155" class="ax_default box_2">
+        <div id="u1155_div" class=""></div>
+        <div id="u1155_text" class="text ">
+          <p><span>table game</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1156" class="ax_default box_2">
+        <div id="u1156_div" class=""></div>
+        <div id="u1156_text" class="text ">
+          <p><span>hot</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1157" class="ax_default box_2">
+        <div id="u1157_div" class=""></div>
+        <div id="u1157_text" class="text ">
+          <p><span>Recommendation</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1158" class="ax_default box_2">
+        <div id="u1158_div" class=""></div>
+        <div id="u1158_text" class="text ">
+          <p><span>new game</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1159" class="ax_default box_2">
+        <div id="u1159_div" class=""></div>
+        <div id="u1159_text" class="text ">
+          <p><span>Others</span></p>
+        </div>
+      </div>
+
+      <!-- set (组合) -->
+      <div id="u1160" class="ax_default" data-label="set" data-left="863" data-top="825" data-width="452" data-height="286">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1161" class="ax_default box_1">
+          <div id="u1161_div" class=""></div>
+          <div id="u1161_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1162" class="ax_default button">
+          <div id="u1162_div" class=""></div>
+          <div id="u1162_text" class="text ">
+            <p><span>取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1163" class="ax_default button">
+          <div id="u1163_div" class=""></div>
+          <div id="u1163_text" class="text ">
+            <p><span>取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1164" class="ax_default _二级标题">
+          <div id="u1164_div" class=""></div>
+          <div id="u1164_text" class="text ">
+            <p><span>编辑</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1165" class="ax_default _二级标题">
+          <div id="u1165_div" class=""></div>
+          <div id="u1165_text" class="text ">
+            <p><span>X</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1166" class="ax_default label">
+          <div id="u1166_div" class=""></div>
+          <div id="u1166_text" class="text ">
+            <p><span>游戏名称：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u1167" class="ax_default text_field disabled">
+          <div id="u1167_div" class="disabled"></div>
+          <input id="u1167_input" type="text" value="默认显示英文名（不可编辑）" class="u1167_input" disabled/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1168" class="ax_default label">
+          <div id="u1168_div" class=""></div>
+          <div id="u1168_text" class="text ">
+            <p><span>游戏ID：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1169" class="ax_default label">
+          <div id="u1169_div" class=""></div>
+          <div id="u1169_text" class="text ">
+            <p><span>123456789</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1170" class="ax_default label">
+          <div id="u1170_div" class=""></div>
+          <div id="u1170_text" class="text ">
+            <p><span>游戏排序：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u1171" class="ax_default text_field">
+          <div id="u1171_div" class=""></div>
+          <input id="u1171_input" type="text" value="" class="u1171_input"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u1172" class="ax_default label">
+          <div id="u1172_div" class=""></div>
+          <div id="u1172_text" class="text ">
+            <p><span>前端显示：</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (动态面板) -->
+        <div id="u1173" class="ax_default">
+          <div id="u1173_state0" class="panel_state" data-label="State1" style="">
+            <div id="u1173_state0_content" class="panel_state_content">
+
+              <!-- Unnamed (形状) -->
+              <div id="u1174" class="ax_default icon">
+                <img id="u1174_img" class="img " src="images/游戏大厅管理/u1174.svg"/>
+                <div id="u1174_text" class="text ">
+                  <p><span>开</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u1173_state1" class="panel_state" data-label="State2" style="visibility: hidden;">
+            <div id="u1173_state1_content" class="panel_state_content">
+
+              <!-- Unnamed (形状) -->
+              <div id="u1175" class="ax_default icon">
+                <img id="u1175_img" class="img " src="images/游戏大厅管理/u1175.svg"/>
+                <div id="u1175_text" class="text ">
+                  <p><span>关</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1176" class="ax_default button">
+        <div id="u1176_div" class=""></div>
+        <div id="u1176_text" class="text ">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1177" class="ax_default button">
+        <div id="u1177_div" class=""></div>
+        <div id="u1177_text" class="text ">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1178" class="ax_default button">
+        <div id="u1178_div" class=""></div>
+        <div id="u1178_text" class="text ">
+          <p><span>编辑</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u1179" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1180" class="ax_default table_cell">
+          <img id="u1180_img" class="img " src="images/游戏大厅管理/u1180.png"/>
+          <div id="u1180_text" class="text ">
+            <p><span>弹窗选项</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1181" class="ax_default table_cell">
+          <img id="u1181_img" class="img " src="images/游戏大厅管理/u1181.png"/>
+          <div id="u1181_text" class="text ">
+            <p><span>功能说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1182" class="ax_default table_cell">
+          <img id="u1182_img" class="img " src="images/游戏大厅管理/u1182.png"/>
+          <div id="u1182_text" class="text ">
+            <p><span>游戏排序</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1183" class="ax_default table_cell">
+          <img id="u1183_img" class="img " src="images/游戏大厅管理/u1183.png"/>
+          <div id="u1183_text" class="text ">
+            <ul><li style=""><span>输入整数，最小值0；</span></li><li style=""><span>排序数字默认为0，数字越大排序越靠前；</span></li><li style=""><span>取值相同时，按照商品id排序，id小排序靠前；</span></li></ul>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1184" class="ax_default table_cell">
+          <img id="u1184_img" class="img " src="images/游戏大厅管理/u1184.png"/>
+          <div id="u1184_text" class="text ">
+            <p><span>前端显示</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1185" class="ax_default table_cell">
+          <img id="u1185_img" class="img " src="images/游戏大厅管理/u1185.png"/>
+          <div id="u1185_text" class="text ">
+            <ul><li style=""><span>开关仅控制游戏入口图标是否显示在公共大厅</span></li><li style=""><span style="color:#D9001B;">开关状态，受到</span><a id="u1186" class="link"><span style="color:#0000FF;">游戏列表管理的 开关状态影响；</span></a></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
